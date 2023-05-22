@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/Logo.png">
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Cloud Innovation</title>
+    </head>
+    <body>
+        <header class="home" id="home">
+            <ul class="navbar-links" id="navbar-links">
+                <a href="#home"><img src="assets/Logo.png" class="logo"></a>
+                <li style="float: right;" class="individual-links">
+                    <a href="curso.html" target="_blank">Curso Canva</a>
+                </li> 
+
+                <li  style="float: right;" class="individual-links">
+                    <a href="#contact-area">Contato</a>
+                </li>
+                    
+                <li style="float: right;" class="individual-links">
+                    <a href="#about">Sobre</a>
+                </li>
+                    
+                <li style="float: right;" class="individual-links">
+                    <a href="#home">Início</a>
+                </li>
+
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </a>
+            </ul>
+        </header>
+
+        
+        <article class="banner" id="banner">
+
+        </article>
+
+        <article class="about" id="about">
+            <div class="about-sec">
+                <div class="about-img">
+                    <img src="assets/Logo-bigger.png">
+                </div>
+                <div class="about-intro">
+                    <h3>Sobre nós!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="aaa.html">conheça o nosso time!</a></p>
+                </div>
+            </div>
+        </article>
+
+        <article class="contact" id="contact">
+
+            <h2 class="contact-title" id="contact-title">Entrar em contato</h2>
+            <form method="POST" action="enviando.php" autocomplete="off">
+                <div>
+                    <input type="text" placeholder="Nome" name="nome" required>
+                </div>
+                
+                <div>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Assunto" name="assunto" required>
+                </div>
+                
+                <div>
+                    <textarea placeholder="Mensagem" name="mensagem" required></textarea>
+                </div>
+                
+                <input type="submit" name="submit" value="Enviar">
+            </form>
+
+        </article>
+
+        <footer class="footer-distributed" id="contact-area">
+            <div class="footer-right">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+      
+            <div class="footer-left">
+              <p>Cloud Innovation &copy; 2023</p>
+            </div>
+          </footer>
+    </body>
+    <script type="text/javascript" src="responsive.js"></script>
+</html>
