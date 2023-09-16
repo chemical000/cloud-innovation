@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/Logo.png">
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Cloud Innovation - TSI</title>
+    </head>
+    <body>
+        <header class="home" id="h">
+            <ul class="navbar-links" id="navbar-links">
+                <a href="#h"><img src="assets/Logo.png" class="logo"></a>
+                <li  style="float: right;" class="individual-links">
+                    <a href="#c" class="individual-links">Contato</a>
+                </li>
+                    
+                <li style="float: right;" class="individual-links">
+                    <a href="#s" class="individual-links">Serviços</a>
+                </li>
+
+                <li style="float: right;" class="individual-links">
+                    <a href="#a" class="individual-links">Sobre</a>
+                </li>
+    
+                <li style="float: right;" class="individual-links">
+                    <a href="#h" class="individual-links">Início</a>
+                </li>
+
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <i class="fa-solid fa-bars"></i> <!-- Corrigir -->
+                </a>
+            </ul>
+        </header>
+
+        
+        <article class="banner" id="banner">
+            <section class="header">
+                <h1 class="company-name">Cloud Innovation</h1>
+                <p class="company-mission">Ajudando sua empresa a <br>alcançar novas alturas de inovação</p>
+                <a class="btn-bgstroke" href="https:www.bit.ly/curso-canva-tsi" target="_blank">Curso Canva</a>
+            </section>
+        </article>
+
+        <article class="about" id="a">
+            <div class="about-sec">
+                <div class="about-img">
+                    <img src="assets/Logo-bigger.png">
+                </div>
+                <div class="about-intro">
+                    <h3>Sobre nós</h3>
+                    <p>Somos uma equipe apaixonada por inovação e tecnologia, dedicada a oferecer soluções criativas e impactantes. 
+                        Nossa missão é impulsionar o desenvolvimento econômico e social, 
+                        utilizando o poder da tecnologia para transformar negócios e inspirar 
+                        pessoas.
+                        Combinando talento, expertise e uma abordagem colaborativa, 
+                        buscamos sempre superar expectativas e entregar resultados excepcionais aos nossos clientes. 
+                        Acreditamos que a inovação é a chave para desbloquear o potencial de cada organização, 
+                        impulsionando o crescimento e a diferenciação no mercado.
+                </div>
+            </div>
+        </article>
+
+        <article class="services" id="s">
+            <section class="our-services">
+                <div class="row">
+                    <h2 class="section-heading">Serviços</h2>
+                </div>
+                <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fa-solid fa-gear"></i>
+                      </div>
+                      <h3 class="heading">Montagem e Manutenção</h3>
+                      <p class="paragraph">
+                        Montagem e manutenção de micro.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fas fa-brush"></i>
+                      </div>
+                      <h3 class="heading">Design Gráfico</h3>
+                      <p class="paragraph">
+                        Oferecemos serviços de Design Gráfico.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <div class="icon-wrapper">
+                        <i class="fas fa-wrench"></i>
+                      </div>
+                      <h3 class="heading">Suporte Técnico</h3>
+                      <p class="paragraph">
+                        Oferecemos suporte técnico para pequenas e médias empresas.
+                      </p>
+                    </div>
+                  </div> 
+                </div>
+            </section>
+        </article>
+
+        <article class="contact" id="c">
+
+            <h2 class="contact-title" id="contact-title">Entrar em contato</h2>
+            <form method="POST" action="enviando.php" autocomplete="off">
+                <div>
+                    <input type="text" placeholder="Nome" name="nome" required>
+                </div>
+                
+                <div>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Assunto" name="assunto" required>
+                </div>
+                
+                <div>
+                    <textarea placeholder="Mensagem" name="mensagem" required></textarea>
+                </div>
+                
+                <input type="submit" name="submit" value="Enviar">
+            </form>
+
+        </article>
+
+        <footer class="footer-distributed" id="con">
+            <div class="footer-right">
+                <a href="https://www.instagram.com/p/Csjpyzvun4B/?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@cloudinnovation_?_t=8cEgyG0kTfJ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+      
+            <div class="footer-left">
+              <p><i class="fa-solid fa-cloud"></i> Cloud Innovation &copy; 2023</p>
+            </div>
+          </footer>
+    </body>
+    <script type="text/javascript" src="responsive.js"></script>
+</html>
